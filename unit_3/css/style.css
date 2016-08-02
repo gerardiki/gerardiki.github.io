@@ -7,6 +7,7 @@ body {
 	background: #ccc;
 	font-family: Helvetica, sans-serif;
 	font-weight: 400;
+	font-size: 16px;
 	text-align: center;
 }
 
@@ -52,7 +53,7 @@ header {
 }
 
 img {
-	display: inline-block;
+
 }
 
 main {
@@ -64,17 +65,15 @@ main {
 }
 
 nav {
-	background: #f2f2f2;
+	background: #330066;
 	color: #fff;
 	padding: 10px;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 1200px;
 }
 
 nav a {
-	color: #330066;
+	color: #fff;
 	font-weight: 600;
+	text-transform: uppercase;
 }
 
 nav ul {
@@ -100,8 +99,13 @@ ul {
 
 #hero {
 	align-items: center;
-	background: #fff;
+	background: url("../images/pano_highway_pano_crop.jpg");
+	background-size: cover;
 	display: flex;
-	height: 300px;
+	height: 600px;
 	justify-content: center;
+}
+
+#profile {
+	color: #000;
 }

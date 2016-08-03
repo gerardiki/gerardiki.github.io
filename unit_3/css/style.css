@@ -121,6 +121,10 @@ ul {
 	max-width: 100%;
 }
 
+#hero img {
+	width: 30%;
+}
+
 #profile {
 	color: #000;
 }

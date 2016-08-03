@@ -1,51 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i,800,800i);
+
 * {
 	margin: 0;
 	padding: 0;
-}
-
-body {
-	background: #ccc;
-	font-family: Helvetica, sans-serif;
-	font-weight: 400;
-	font-size: 16px;
-	text-align: center;
 }
 
 a {
 	text-decoration: none;
 }
 
+body {
+	background: #ccc;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+}
+
 footer {
-	background: #306;
 	margin-left: auto;
 	margin-right: auto;
-	text-align: left;
 	max-width: 1200px;
+	text-align: left;
 }
 
 footer a {
 	color: #fff;
+	margin-right: 1em;
 }
 
 footer h1 {
 	color: #fff;
 }
 
+footer section {
+	background: #306;
+}
+
+
 h1 {
 	color: #330066;
+	font-size: 1.75em;
 	font-weight: 800;
-	padding-left: 20px;
 	text-transform: uppercase;
 }
 
 h2 {
+	font-size: 1.5em;
+	font-weight: 600;
 	color: #36c;
-	padding-left: 20px;
 }
 
 h3 {
+	font-size: 1.25em;
+	font-style: italic;
+	font-weight: 600;
 	color: #306;
-	padding-left: 20px;
 }
 
 header {
@@ -53,7 +63,7 @@ header {
 }
 
 img {
-
+	padding: 10px 10px 10px 0;
 }
 
 main {
@@ -68,11 +78,13 @@ nav {
 	background: #330066;
 	color: #fff;
 	padding: 10px;
+	text-align: right;
 }
 
 nav a {
 	color: #fff;
 	font-weight: 600;
+	margin-right: 1em;
 	text-transform: uppercase;
 }
 
@@ -81,7 +93,7 @@ nav ul {
 }
 
 p {
-	padding-left: 20px;
+
 }
 
 section {
@@ -89,12 +101,13 @@ section {
 	margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
+    padding: 1.5em;
     text-align: left;
 }
 
 ul {
 	list-style: none;
-	padding-left: 20px;
+	padding: 1em;
 }
 
 #hero {
@@ -102,10 +115,26 @@ ul {
 	background: url("../images/pano_highway_pano_crop.jpg");
 	background-size: cover;
 	display: flex;
-	height: 600px;
+	height: 100vh;
 	justify-content: center;
+	padding: 0;
+	max-width: 100%;
 }
 
 #profile {
 	color: #000;
+}
+
+#statement p {
+	color: #36c;
+	font-size: 2.5em;
+}
+
+#work h2 {
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+#work section {
+	padding-left: 0;
 }

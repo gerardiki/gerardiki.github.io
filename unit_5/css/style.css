@@ -102,8 +102,7 @@ hr {
 }
 
 img {
-	display: inline;
-	padding: .5em 0;
+	/*padding: .5em 0;*/
 }
 
 main {
@@ -111,7 +110,7 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
-	max-width: 1200px;
+	/*max-width: 1200px;*/
 }
 
 /*UNIT 5 EDIT*/
@@ -146,7 +145,7 @@ section {
 	background: #e6e6e6;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 1200px;
+	/*max-width: 1200px;*/
 	/*padding: 1.6em;*/
 	text-align: left;
 }
@@ -177,6 +176,15 @@ ul {
 	width: 33%;
 }
 
+#medium article {
+	display: inline-block;
+	max-width: inherit;
+}
+
+#medium h1, h2, h3, img {
+	/*display: inline;*/
+}
+
 #medium h1 {
 	color: #36c;
 	font-size: 2em;
@@ -194,6 +202,10 @@ ul {
 #statement p {
 	color: #fff;
 	font-size: 2.5em;
+}
+
+#work {
+/*	max-width: 1200px;*/
 }
 
 #work section {

@@ -55,14 +55,15 @@ header {
 }
 
 header nav {
-	background: #306;
+	/*background: #306;*/
+	background: rgba(51, 0, 105, .9);
 	letter-spacing: 1.5px;
 	text-align: center;
 }
 
 header nav a {
 	display: inline-block;
-	padding: 1em;
+	padding: .6em;
 }
 
 header nav a:link {
@@ -105,10 +106,11 @@ h3 {
 }
 
 hr {
-	background: #36c;
+	background: #306;
 	border: none;
 	height: 2px;
-	width: 3em;
+	margin: auto;
+	width: 100%;
 }
 
 img {
@@ -216,26 +218,10 @@ ul {
 	max-width: 30em;
 }
 
-#topnav {
-	background: rgba(242, 242, 242, .5);
-	padding: 1em;
+#topNav {
 	position: fixed;
-	right: 0;
 	top: 0;
 	width: 100%;
-}
-
-#topnav a {
-	display: inline-block;
-	padding: 1em;
-}
-
-#topnav a:hover {
-	background: #fff;
-}
-
-#topnav img {
-	float: left;
 }
 
 #work {

@@ -1,0 +1,282 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i,800,800i);
+
+* {
+	border: 0 none;
+	box-sizing: border-box;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+a:link {
+	color: #306;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #7f7f7f;
+}
+
+a:hover {
+	color: #36c;
+	border-bottom: 1px solid;
+/*	margin-bottom: 2px;*/
+}
+
+a:active {
+	color: #F00;
+}
+
+article {
+	padding: 2%;
+}
+
+body {
+	background: #ccc;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+}
+
+footer {
+	clear: both;
+	color: #fff;
+	text-align: left;
+}
+
+header {
+	letter-spacing: 1.5px;
+	text-align: left;
+}
+
+h1 {
+	color: #306;
+	font-size: 2.5em;
+	font-weight: 800;
+	padding: 0 0 .3em;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1.6em;
+	font-weight: 600;
+	color: #36c;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: 600;
+	color: #306;
+}
+
+hr {
+	background: #36c;
+	border: none;
+	height: 2px;
+	width: 3em;
+}
+
+img {
+	max-width: 100%;
+}
+
+nav {
+	letter-spacing: 1.5px;
+	text-align: left;
+}
+
+nav a {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #36c;
+}
+
+p {
+	line-height: 1.4em;
+	max-width: 30em;
+}
+
+section {
+	background: #e6e6e6;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1.6em;
+	text-align: left;
+}
+
+ul {
+	line-height: 1.4em;
+	list-style: none;
+	padding: 1em;
+}
+
+#contact {
+	background: #306;
+	padding: 3em 2em;
+}
+
+#contact a {
+	color: #fff;
+}
+
+#contact h1 {
+	color: #fff;
+}
+
+#contact nav {
+	padding: 0;
+}
+
+#contact nav a {
+	margin-right: 1.6em;
+    padding: .6em 0;
+}
+
+#contact nav a:hover {
+	background: inherit;
+	color: inherit;
+	border-bottom: 1px solid;
+	padding-bottom: .3em;
+}
+
+#experience {
+	background: #fff;
+	/*max-width: 1080px;*/
+	max-width: 60em;
+	text-align: left;
+}
+
+#hero {
+	align-items: center;
+	background: url("../images/pano_highway_pano_crop.jpg");
+	background-size: cover;
+	clear: both;
+	display: flex;
+	height: 66vh;
+	justify-content: center;
+	padding: 0;
+	max-width: 100%;
+}
+
+#hero img {
+	height: 66%;
+}
+
+#statement {
+	background: #f2f2f2;
+	width: 100%;
+}
+
+#statement p {
+	color: #306;
+	font-size: 2.5em;
+	margin: auto;
+	max-width: 30em;
+}
+
+#topnav {
+	background: rgba(242, 242, 242, .5);
+	padding: 1em;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+
+#topnav a {
+	display: inline-block;
+	padding: 1em;
+}
+
+#topnav a:hover {
+	background: #fff;
+}
+
+#topnav img {
+	float: left;
+}
+
+#work {
+	width: 100%;
+	padding: 1.6em 0;
+}
+
+#work header {
+	margin: auto;
+	max-width: 1200px;
+	padding-left: 1.6em;
+}
+
+#work section {
+	/*float: left;*/
+	max-width: 1200px;
+}
+
+.clearfix:after {
+	content: " ";
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.medium article {
+	/*float: left;*/
+	display: inline-block;
+	max-width: 30%;
+}
+
+.medium header {
+	padding: 0;
+}
+
+.medium header h1 {
+	border-bottom: 1px solid #36c;
+	color: #36c;
+	font-size: 2em;
+	font-weight: 800;
+}
+
+.medium article h1 {
+	border-bottom: none;
+	color: #306;
+	font-size: 1.75em;
+	text-transform: none;
+}
+
+.medium article h2 {
+	font-size: 1.25em;
+	font-style: italic;
+	font-weight: 600;
+	text-transform: none;
+}
+
+.medium article h3 {
+	color: #555;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.navImg {
+
+}

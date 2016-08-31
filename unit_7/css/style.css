@@ -10,7 +10,7 @@
 	margin: 0;
 	outline: 0;
 	padding: 0;
-	vertical-align: baseline;
+	vertical-align: top;
 }
 
 a:link {
@@ -23,8 +23,9 @@ a:visited {
 }
 
 a:hover {
-	color: #36c;
-	border-bottom: 1px solid;
+	background: #fff;
+	color: #306;
+	/*border-bottom: 1px solid;*/
 }
 
 a:active {
@@ -83,11 +84,11 @@ hr {
 }
 
 img {
-	
+	max-width: 100%;
 }
 
 nav {
-	letter-spacing: 1.5px;
+	letter-spacing: .1em;
 	text-align: left;
 }
 
@@ -108,9 +109,6 @@ p {
 section {
 	background: #e6e6e6;
 	margin: auto;
-	/*margin-left: auto;
-	margin-right: auto;*/
-	/*padding: 1.6em;*/
 	text-align: left;
 }
 
@@ -174,13 +172,14 @@ ul {
 }
 
 #logo {
-	/*background: #fff;*/
-	margin-right: .6em;
-	padding: .6em 0 .3em;
+	align-items: center;
+	display: flex;
+	height: 50px;
+	padding: .6em;
 }
 
 #logo a:hover {
-	border-bottom: none;
+	background: none;
 }
 
 #sideNav {
@@ -213,24 +212,46 @@ ul {
 	align-items: center;
 	/*background: #306;*/
 	background: rgba(51, 0, 105, .95);
-	/*display: flex;*/
-	padding: 0 .6em;
+	height: 50px;
 	position: fixed;
-	/*text-align: center;*/
 	top: 0;
-	/*justify-content: center;*/
 	width: 100%;
 }
 
-#topNavFixed a {
+#topNavFixedLinks {
+	/*display: block;*/
+	align-items: center;
+	display: flex;
+	height: 50px;
+}
+
+#topNavFixedLinks a {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	padding: .6em;
+}
+
+#topNavFixedLinks a:link {
 	color: #fff;
-	display: inline-block;
-	margin: 0 .6em;
-	padding: .6em 0;
+	text-decoration: none;
+}
+
+#topNavFixedLinks a:visited {
+	color: #fff;
+}
+
+#topNavFixedLinks a:hover {
+	background: #fff;
+	color: #306;
+}
+
+#topNavFixedLinks a:active {
+	color: #F00;
 }
 
 #topNavFixed a:hover {
-
+	color: #306;
 }
 
 #work {
@@ -240,9 +261,8 @@ ul {
 #work > header {
 	background: #306;
 	text-align: center;
-/*	margin: auto;*/
 	/*max-width: 1000px;*/
-	/*padding-left: 1.6em;*/
+	padding: .6em;
 }
 
 #work > header h1 {
@@ -278,10 +298,10 @@ ul {
 
 .medium article {
 	border: 1px solid #306;
-	/*display: inline-block;*/
-	float: left;
-	/*max-height: 600px;*/
-/*	max-width: 300px;*/
+	display: inline-block;
+	/*float: left;*/
+	/*min-height: 600px;*/
+	width: 30%;
 	padding: .2em;
 	margin: .6em;
 	text-align: left;
@@ -313,7 +333,7 @@ ul {
 }
 
 .medium header {
-
+	padding: .6em;
 }
 
 .medium header h1 {
@@ -326,8 +346,4 @@ ul {
 .workThumbBox {
 	display: inline-block;
 	width: 30%;
-}
-
-.workThumbBox img {
-	width: 100%;
 }

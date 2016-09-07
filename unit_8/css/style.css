@@ -132,6 +132,7 @@ ul {
 
 #contact h1 {
 	color: #fff;
+	font-size: 1.4em;
 }
 
 #contact nav {
@@ -146,8 +147,8 @@ ul {
 #contact nav a:hover {
 	background: inherit;
 	color: inherit;
-	border-bottom: 1px solid;
-	padding-bottom: .3em;
+	/*border-bottom: 1px solid;
+	padding-bottom: .3em;*/
 }
 
 #experience {
@@ -314,28 +315,59 @@ ul {
 }
 
 #work {
-	padding: 1em;
-	text-align: center;
-}
-
-#work > header {
-	background: #306;
-	text-align: center;
-	/*max-width: 1000px;*/
-	padding: .6em;
+	padding: 1em 0;
 }
 
 #work header h1 {
 	color: #fff;
 	margin: auto;
+	font-size: 1.4em;
 }
+
+#work > section {
+	text-align: center;
+	margin: .6em auto;
+	max-width: 90%;
+	padding: .6em;
+}
+
 
 #workThumbs {
 	width: 100%;
 	text-align: center;
 }
 
+#workAnimation {
+	background: orange;
+}
 
+#workEmail {
+	background: green;
+}
+
+#workInteractive {
+	background: blue;
+}
+
+#workMotion {
+	background: black;
+}
+
+#workPrint {
+	background: red;
+}
+
+#workProduction {
+	background: gray;
+}
+
+#workUX {
+	background: purple;
+}
+
+#workWeb {
+	background: gray;
+}
 
 /*#work > section {
 	width: 100%;

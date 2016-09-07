@@ -45,6 +45,7 @@ body {
 }
 
 footer {
+	background: #36c;
 	clear: both;
 	color: #fff;
 	text-align: left;
@@ -109,7 +110,7 @@ p {
 section {
 	background: #e6e6e6;
 	margin: auto;
-	text-align: left;
+	text-align: center;
 }
 
 ul {
@@ -121,8 +122,11 @@ ul {
 /* IDs */
 
 #contact {
-	background: #36c;
-	padding: 1em 2em 4em;
+	background: inherit;
+	padding: 1em 0;
+	margin-bottom: 50px;
+	text-align: left;
+	width: 90%;
 }
 
 #contact a {
@@ -167,7 +171,7 @@ ul {
 	display: flex;
 	/*height: 100vh;*/
 	justify-content: center;
-	margin-top: 50px;
+	margin-top: 66px;
 	max-width: 100%;
 	padding: .6em;
 	text-align: center;
@@ -177,14 +181,6 @@ ul {
 	font-size: 1.6em;
 	margin: .2em;
 	text-transform: none;
-}
-
-#hero img {
-	
-}
-
-#heroLogo {
-	margin: .3em;
 }
 
 #heroTitle {
@@ -212,18 +208,20 @@ ul {
 	color: #F00;
 }
 
-
 #logo {
-	/*align-items: center;*/
-/*	background: rgba(242, 242, 242, .95);
-	position: fixed;
-	top: 0;
-	width: 100%;*/
-	padding: .3em;
+	height: 90px;
 }
 
 #logo a:hover {
 	background: none;
+}
+
+#logoType {
+	width: 90%;
+}
+
+#logoWrapper {
+	margin: .3em;
 }
 
 #mainNav {
@@ -238,7 +236,10 @@ ul {
 }
 
 #mainNav a {
-	margin: 0 .6em;
+	display: block;
+	padding: .6em;
+	text-align: center;
+	width: 33%;
 }
 
 #mainNav a:link {
@@ -276,46 +277,22 @@ ul {
 }
 
 #topHeader {
+	align-items: center;
 	background: rgba(242, 242, 242, .95);
+	display: flex;
+	height: 66px;
+	justify-content: center;
 	position: fixed;
 	top: 0;
 	width: 100%;
 }
 
-#topNavFixedLinks {
-	/*display: block;*/
-	align-items: center;
-	display: flex;
-	height: 50px;
-}
-
-#topNavFixedLinks a {
-	align-items: center;
-	display: flex;
-	height: 100%;
-	padding: .6em;
-}
-
-#topNavFixedLinks a:link {
-	color: #fff;
-	text-decoration: none;
-}
-
-#topNavFixedLinks a:visited {
-	color: #fff;
-}
-
-#topNavFixedLinks a:hover {
-	background: #fff;
-	color: #306;
-}
-
-#topNavFixedLinks a:active {
-	color: #F00;
+#topHeader a:hover {
+	background: none;
 }
 
 #work {
-	padding: 1em 0;
+	padding: 0 0 1em;
 }
 
 #work header h1 {
@@ -325,10 +302,11 @@ ul {
 }
 
 #work > section {
-	text-align: center;
-	margin: .6em auto;
+	border-radius: .6em;
+	margin: 0 auto .6em;
 	max-width: 90%;
-	padding: .6em;
+	padding: 1em;
+	text-align: center;
 }
 
 
@@ -346,7 +324,7 @@ ul {
 }
 
 #workInteractive {
-	background: blue;
+	background: navy;
 }
 
 #workMotion {
@@ -358,7 +336,7 @@ ul {
 }
 
 #workProduction {
-	background: gray;
+	background: indigo;
 }
 
 #workUX {
@@ -366,7 +344,7 @@ ul {
 }
 
 #workWeb {
-	background: gray;
+	background: blue;
 }
 
 /*#work > section {
@@ -376,13 +354,22 @@ ul {
 
 /* CLASSES */
 
+.borderLeftWhite {
+	border-left: 1px solid white;
+}
+
+.borderRightWhite {
+	border-right: 1px solid white;
+}
+
 .button {
 	background: #36c;
 	border-radius: .2em;
 	color: #fff;
 	display: block;
+	margin: auto;
 	padding: .3em;
-	width: 100%;
+	width: 95%;
 }
 
 .clearfix:after {
@@ -453,4 +440,75 @@ ul {
 .workThumbBox {
 	display: inline-block;
 	width: 30%;
+}
+
+/* QUERIES */
+
+@media only screen and (min-width: 640px) {
+	#contact a {
+		display: inline-block;
+		margin-top: 1em;
+	}
+
+	#hero {
+		height: 160px;
+	}
+
+	#logo {
+		height: 120px;
+	}
+
+	#logoWrapper {
+
+	}
+
+	#work > section {
+		display: inline-block;
+		height: 16vh;
+		width: 40%;
+		margin: 1em;
+		text-align: center;
+	}
+
+	#work header {
+		align-items: center;
+		display: flex;
+		height: 100%;
+		justify-content: center;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	#contact {
+		margin-bottom: 0;
+		max-width: 1200px;
+	}
+
+	#hero {
+		margin-top: 101px;
+		max-width: 1200px;
+	}
+
+	#logo {
+		height: 100px;
+	}
+
+	#mainNav {
+		height: 35px;
+		position: fixed;
+		top: 66px;
+	}
+
+	#mainNav a {
+		width: initial;
+	}
+
+	#work {
+		max-width: 1200px;
+	}
+
+	#work > section {
+		height: 250px;
+		max-width: 300px;
+	}
 }

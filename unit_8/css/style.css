@@ -1,0 +1,424 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i,800,800i);
+
+* {
+	border: 0 none;
+	box-sizing: border-box;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+a:link {
+	color: #306;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #306;
+}
+
+a:hover {
+	background: #fff;
+	color: #306;
+	/*border-bottom: 1px solid;*/
+}
+
+a:active {
+	color: #F00;
+}
+
+article {
+	margin: 2% 2% 2% 0;
+}
+
+body {
+	background: #ccc;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+}
+
+footer {
+	clear: both;
+	color: #fff;
+	text-align: left;
+}
+
+header {
+
+}
+
+h1 {
+	/*border-bottom: 6px solid #306;*/
+	color: #306;
+	font-size: 2em;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1.6em;
+	font-weight: 600;
+	color: #36c;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: 600;
+	color: #306;
+}
+
+hr {
+	background: #306;
+	border: none;
+	height: 2px;
+	margin: auto;
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+nav {
+	letter-spacing: .1em;
+	text-align: left;
+}
+
+nav a {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #36c;
+}
+
+p {
+	line-height: 1.4em;
+	max-width: 30em;
+}
+
+section {
+	background: #e6e6e6;
+	margin: auto;
+	text-align: left;
+}
+
+ul {
+	line-height: 1.4em;
+	list-style: none;
+	padding: 1em;
+}
+
+/* IDs */
+
+#contact {
+	background: #36c;
+	padding: 1em 2em 4em;
+}
+
+#contact a {
+	display: block;
+	color: #fff;
+}
+
+#contact h1 {
+	color: #fff;
+}
+
+#contact nav {
+	padding: 0;
+}
+
+#contact nav a {
+	/*margin-right: 1.6em;
+    padding: .6em 0;*/
+}
+
+#contact nav a:hover {
+	background: inherit;
+	color: inherit;
+	border-bottom: 1px solid;
+	padding-bottom: .3em;
+}
+
+#experience {
+	background: #fff;
+	/*max-width: 1080px;*/
+	max-width: 60em;
+	text-align: left;
+}
+
+#hero {
+	align-items: center;
+	/*background: url("../images/pano_highway_pano_crop.jpg");
+	background-attachment: fixed;	
+	background-size: cover;*/
+	/*clear: both;*/
+	display: flex;
+	/*height: 100vh;*/
+	justify-content: center;
+	margin-top: 50px;
+	max-width: 100%;
+	padding: .6em;
+	text-align: center;
+}
+
+#hero h1 {
+	font-size: 1.6em;
+	margin: .2em;
+	text-transform: none;
+}
+
+#hero img {
+	
+}
+
+#heroLogo {
+	margin: .3em;
+}
+
+#heroTitle {
+
+}
+
+#heroTitle a:link {
+	color: #fff;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#heroTitle a:visited {
+	color: #fff;
+}
+
+#heroTitle a:hover {
+	background: #fff;
+	color: #306;
+	/*border-bottom: 1px solid;*/
+}
+
+#heroTitle a:active {
+	color: #F00;
+}
+
+
+#logo {
+	/*align-items: center;*/
+/*	background: rgba(242, 242, 242, .95);
+	position: fixed;
+	top: 0;
+	width: 100%;*/
+	padding: .3em;
+}
+
+#logo a:hover {
+	background: none;
+}
+
+#mainNav {
+	align-items: center;
+	background: #306;
+	bottom: 0;
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	position: fixed;
+	width: 100%;
+}
+
+#mainNav a {
+	margin: 0 .6em;
+}
+
+#mainNav a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+#mainNav a:visited {
+	color: #fff;
+}
+
+#mainNav a:hover {
+	background: #fff;
+	color: #306;
+}
+
+#mainNav a:active {
+	color: #F00;
+}
+
+#statement {
+	/*background: #f2f2f2;*/
+	background: rgba(242, 242, 242, .5);
+	margin: 2%;
+	max-width: 40em;
+	/*width: 100%;*/
+	padding: 1.6em;
+}
+
+#statement p {
+	color: #306;
+	font-size: 2em;
+	margin: auto;
+	max-width: 30em;
+}
+
+#topHeader {
+	background: rgba(242, 242, 242, .95);
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#topNavFixedLinks {
+	/*display: block;*/
+	align-items: center;
+	display: flex;
+	height: 50px;
+}
+
+#topNavFixedLinks a {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	padding: .6em;
+}
+
+#topNavFixedLinks a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+#topNavFixedLinks a:visited {
+	color: #fff;
+}
+
+#topNavFixedLinks a:hover {
+	background: #fff;
+	color: #306;
+}
+
+#topNavFixedLinks a:active {
+	color: #F00;
+}
+
+#work {
+	padding: 1em;
+	text-align: center;
+}
+
+#work > header {
+	background: #306;
+	text-align: center;
+	/*max-width: 1000px;*/
+	padding: .6em;
+}
+
+#work header h1 {
+	color: #fff;
+	margin: auto;
+}
+
+#workThumbs {
+	width: 100%;
+	text-align: center;
+}
+
+
+
+/*#work > section {
+	width: 100%;
+	text-align: center;
+}*/
+
+/* CLASSES */
+
+.button {
+	background: #36c;
+	border-radius: .2em;
+	color: #fff;
+	display: block;
+	padding: .3em;
+	width: 100%;
+}
+
+.clearfix:after {
+	content: " ";
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.medium article {
+	border: 1px solid #306;
+	display: inline-block;
+	/*float: left;*/
+	/*min-height: 600px;*/
+	width: 30%;
+	padding: .2em;
+	margin: .6em;
+	text-align: left;
+
+}
+
+.medium article h1 {
+	border-bottom: none;
+	color: #306;
+	font-size: 1.75em;
+	padding: .3em;
+	text-transform: none;
+}
+
+.medium article h2 {
+	font-size: 1.25em;
+	font-style: italic;
+	font-weight: 600;
+	padding: .3em;
+	text-transform: none;
+}
+
+.medium article h3 {
+	color: #555;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 600;
+	padding: .3em;
+}
+
+.medium header {
+	padding: .6em;
+}
+
+.medium header h1 {
+	/*border-bottom: 1px solid #36c;
+	color: #36c;*/
+	color: #fff;
+	font-size: 2em;
+	font-weight: 800;
+}
+
+.workThumbBox {
+	display: inline-block;
+	width: 30%;
+}

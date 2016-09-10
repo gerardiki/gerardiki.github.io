@@ -229,7 +229,8 @@ ul {
 
 #mainNav {
 	align-items: center;
-	background: #306;
+	/*background: #306;*/
+	/*background: rgba(242, 242, 242, .9);*/
 	bottom: 16px;
 	display: flex;
 	font-size: .8em;
@@ -240,13 +241,16 @@ ul {
 }
 
 #mainNav a {
+	background: rgba(242, 242, 242, .9);
+	border-radius: .6em;
 	display: block;
+	margin: 0 .2em;
 	padding: .6em;
 	text-align: center;
-	width: 33%;
+	width: 31%;
 }
 
-#mainNav a:link {
+/*#mainNav a:link {
 	color: #fff;
 	text-decoration: none;
 }
@@ -261,7 +265,7 @@ ul {
 
 #mainNav a:active {
 	color: #F00;
-}
+}*/
 
 #statement {
 	/*background: #f2f2f2;*/

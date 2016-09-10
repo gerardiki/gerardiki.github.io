@@ -1,0 +1,518 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i,800,800i);
+
+* {
+	border: 0 none;
+	box-sizing: border-box;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+a:link {
+	color: #306;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #306;
+}
+
+a:hover {
+	background: #fff;
+	color: #306;
+	/*border-bottom: 1px solid;*/
+}
+
+a:active {
+	color: #F00;
+}
+
+article {
+	margin: 2% 2% 2% 0;
+}
+
+body {
+	background: #ccc;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+}
+
+footer {
+	background: #36c;
+	clear: both;
+	color: #fff;
+	text-align: left;
+}
+
+header {
+
+}
+
+h1 {
+	/*border-bottom: 6px solid #306;*/
+	color: #306;
+	font-size: 2em;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1.6em;
+	font-weight: 600;
+	color: #36c;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: 600;
+	color: #306;
+}
+
+hr {
+	background: #306;
+	border: none;
+	height: 2px;
+	margin: auto;
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+nav {
+	letter-spacing: .1em;
+	text-align: left;
+}
+
+nav a {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #36c;
+}
+
+p {
+	line-height: 1.4em;
+	max-width: 30em;
+}
+
+section {
+	background: #e6e6e6;
+	margin: auto;
+	text-align: center;
+}
+
+ul {
+	line-height: 1.4em;
+	list-style: none;
+	padding: 1em;
+}
+
+/* IDs */
+
+#contact {
+	background: inherit;
+	padding: 1em 0;
+	margin-bottom: 50px;
+	text-align: left;
+	width: 90%;
+}
+
+#contact a {
+	display: block;
+	color: #fff;
+}
+
+#contact h1 {
+	color: #fff;
+	font-size: 1.4em;
+}
+
+#contact nav {
+	padding: 0;
+}
+
+#contact nav a {
+	/*margin-right: 1.6em;
+    padding: .6em 0;*/
+}
+
+#contact nav a:hover {
+	background: inherit;
+	color: inherit;
+	/*border-bottom: 1px solid;
+	padding-bottom: .3em;*/
+}
+
+#experience {
+	background: #fff;
+	/*max-width: 1080px;*/
+	max-width: 60em;
+	text-align: left;
+}
+
+#hero {
+	align-items: center;
+	/*background: url("../images/pano_highway_pano_crop.jpg");
+	background-attachment: fixed;	
+	background-size: cover;*/
+	/*clear: both;*/
+	display: flex;
+	/*height: 100vh;*/
+	justify-content: center;
+	margin-top: 66px;
+	max-width: 100%;
+	padding: .6em;
+	text-align: center;
+}
+
+#hero h1 {
+	font-size: 1.6em;
+	margin: .2em;
+	text-transform: none;
+}
+
+#heroTitle {
+
+}
+
+#heroTitle a:link {
+	color: #fff;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#heroTitle a:visited {
+	color: #fff;
+}
+
+#heroTitle a:hover {
+	background: #fff;
+	color: #306;
+	/*border-bottom: 1px solid;*/
+}
+
+#heroTitle a:active {
+	color: #F00;
+}
+
+#logo {
+	height: 90px;
+}
+
+#logo a:hover {
+	background: none;
+}
+
+#logoType {
+	
+}
+
+#logoWrapper {
+	margin: .3em;
+}
+
+#mainNav {
+	align-items: center;
+	background: #306;
+	bottom: 0;
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	position: fixed;
+	width: 100%;
+}
+
+#mainNav a {
+	display: block;
+	padding: .6em;
+	text-align: center;
+	width: 33%;
+}
+
+#mainNav a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+#mainNav a:visited {
+	color: #fff;
+}
+
+#mainNav a:hover {
+	background: #fff;
+	color: #306;
+}
+
+#mainNav a:active {
+	color: #F00;
+}
+
+#statement {
+	/*background: #f2f2f2;*/
+	background: rgba(242, 242, 242, .5);
+	margin: 2%;
+	max-width: 40em;
+	/*width: 100%;*/
+	padding: 1.6em;
+}
+
+#statement p {
+	color: #306;
+	font-size: 2em;
+	margin: auto;
+	max-width: 30em;
+}
+
+#topHeader {
+	align-items: center;
+	background: rgba(242, 242, 242, .95);
+	display: flex;
+	height: 66px;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#topHeader a {
+	display: block;
+}
+
+#topHeader a:hover {
+	background: none;
+}
+
+#work {
+	padding: 0 0 1em;
+}
+
+#work header h1 {
+	color: #fff;
+	margin: auto;
+	font-size: 1.4em;
+}
+
+#work > section {
+	border-radius: .6em;
+	margin: 0 auto .6em;
+	max-width: 90%;
+	padding: 1em;
+	text-align: center;
+}
+
+
+#workThumbs {
+	width: 100%;
+	text-align: center;
+}
+
+#workAnimation {
+	background: orange;
+}
+
+#workEmail {
+	background: green;
+}
+
+#workInteractive {
+	background: navy;
+}
+
+#workMotion {
+	background: black;
+}
+
+#workPrint {
+	background: red;
+}
+
+#workProduction {
+	background: indigo;
+}
+
+#workUX {
+	background: purple;
+}
+
+#workWeb {
+	background: blue;
+}
+
+/*#work > section {
+	width: 100%;
+	text-align: center;
+}*/
+
+/* CLASSES */
+
+.borderLeftWhite {
+	border-left: 1px solid white;
+}
+
+.borderRightWhite {
+	border-right: 1px solid white;
+}
+
+.button {
+	background: #36c;
+	border-radius: .2em;
+	color: #fff;
+	display: block;
+	margin: auto;
+	padding: .3em;
+	width: 95%;
+}
+
+.clearfix:after {
+	content: " ";
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.medium article {
+	border: 1px solid #306;
+	display: inline-block;
+	/*float: left;*/
+	/*min-height: 600px;*/
+	width: 30%;
+	padding: .2em;
+	margin: .6em;
+	text-align: left;
+
+}
+
+.medium article h1 {
+	border-bottom: none;
+	color: #306;
+	font-size: 1.75em;
+	padding: .3em;
+	text-transform: none;
+}
+
+.medium article h2 {
+	font-size: 1.25em;
+	font-style: italic;
+	font-weight: 600;
+	padding: .3em;
+	text-transform: none;
+}
+
+.medium article h3 {
+	color: #555;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 600;
+	padding: .3em;
+}
+
+.medium header {
+	padding: .6em;
+}
+
+.medium header h1 {
+	/*border-bottom: 1px solid #36c;
+	color: #36c;*/
+	color: #fff;
+	font-size: 2em;
+	font-weight: 800;
+}
+
+.workThumbBox {
+	display: inline-block;
+	width: 30%;
+}
+
+/* QUERIES */
+
+@media only screen and (min-width: 640px) {
+	#contact a {
+		display: inline-block;
+		margin-top: 1em;
+	}
+
+	#hero {
+		height: 160px;
+	}
+
+	#logo {
+		height: 120px;
+	}
+
+	#logoWrapper {
+
+	}
+
+	#work > section {
+		display: inline-block;
+		height: 16vh;
+		width: 40%;
+		margin: 1em;
+		text-align: center;
+	}
+
+	#work header {
+		align-items: center;
+		display: flex;
+		height: 100%;
+		justify-content: center;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	#contact {
+		margin-bottom: 0;
+		max-width: 1200px;
+	}
+
+	#hero {
+		margin-top: 101px;
+		max-width: 1200px;
+	}
+
+	#logo {
+		height: 100px;
+	}
+
+	#mainNav {
+		height: 35px;
+		position: fixed;
+		top: 66px;
+	}
+
+	#mainNav a {
+		width: initial;
+	}
+
+	#work {
+		max-width: 1200px;
+	}
+
+	#work > section {
+		height: 250px;
+		max-width: 300px;
+	}
+}

@@ -23,7 +23,6 @@ a:visited {
 }
 
 a:hover {
-	background: #fff;
 	color: #306;
 	/*border-bottom: 1px solid;*/
 }
@@ -130,8 +129,12 @@ ul {
 }
 
 #contact a {
+	background: rgba(255,255,255,.5);
+	border-radius: .6em;
 	display: block;
 	color: #fff;
+	margin: .6em 0;
+	padding: .6em;
 }
 
 #contact h1 {
@@ -164,14 +167,14 @@ ul {
 
 #hero {
 	align-items: center;
-	/*background: url("../images/pano_highway_pano_crop.jpg");
-	background-attachment: fixed;	
-	background-size: cover;*/
+	background: url("../images/pano_highway_pano_crop.jpg");
+/*	background-attachment: fixed;	*/
+	background-size: cover;
 	/*clear: both;*/
 	display: flex;
-	/*height: 100vh;*/
+	height: 100vh;
 	justify-content: center;
-	margin-top: 66px;
+	/*margin-top: 66px;*/
 	max-width: 100%;
 	padding: .6em;
 	text-align: center;
@@ -229,6 +232,7 @@ ul {
 	background: #306;
 	bottom: 0;
 	display: flex;
+	font-size: .8em;
 	height: 50px;
 	justify-content: center;
 	position: fixed;
@@ -252,8 +256,7 @@ ul {
 }
 
 #mainNav a:hover {
-	background: #fff;
-	color: #306;
+	color: #fff;
 }
 
 #mainNav a:active {
@@ -296,7 +299,12 @@ ul {
 }
 
 #work {
-	padding: 0 0 1em;
+	padding: 66px 0 1em;
+}
+
+#work h1 {
+	font-size: 1.4em;
+	padding: .2em;
 }
 
 #work header h1 {
@@ -306,11 +314,10 @@ ul {
 }
 
 #work > section {
-	border-radius: .6em;
 	margin: 0 auto .6em;
-	max-width: 90%;
 	padding: 1em;
 	text-align: center;
+	width: 100%;
 }
 
 
@@ -328,11 +335,11 @@ ul {
 }
 
 #workInteractive {
-	background: navy;
+	background: navy; 
 }
 
 #workMotion {
-	background: black;
+	background: orange;
 }
 
 #workPrint {
@@ -391,6 +398,10 @@ ul {
 
 .floatRight {
 	float: right;
+}
+
+.workMarginTop {
+	margin-top: 66px;
 }
 
 .medium article {

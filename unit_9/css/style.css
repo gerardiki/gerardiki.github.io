@@ -123,7 +123,7 @@ ul {
 #contact {
 	background: inherit;
 	padding: 1em 0;
-	margin-bottom: 50px;
+	margin-bottom: 66px;
 	text-align: left;
 	width: 90%;
 }
@@ -230,7 +230,7 @@ ul {
 #mainNav {
 	align-items: center;
 	background: #306;
-	bottom: 0;
+	bottom: 16px;
 	display: flex;
 	font-size: .8em;
 	height: 50px;

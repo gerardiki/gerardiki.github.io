@@ -168,7 +168,7 @@ ul {
 #hero {
 	align-items: center;
 	background: url("../images/pano_highway_pano_crop.jpg");
-/*	background-attachment: fixed;	*/
+	background-attachment: fixed;	
 	background-size: cover;
 	/*clear: both;*/
 	display: flex;
@@ -230,8 +230,8 @@ ul {
 #mainNav {
 	align-items: center;
 	/*background: #306;*/
-	/*background: rgba(242, 242, 242, .9);*/
-	bottom: 16px;
+	background: rgba(242, 242, 242, .9);
+	bottom: 0;
 	display: flex;
 	font-size: .8em;
 	height: 50px;
@@ -241,8 +241,8 @@ ul {
 }
 
 #mainNav a {
-	background: rgba(242, 242, 242, .9);
-	border-radius: .6em;
+	/*background: rgba(242, 242, 242, .9);*/
+	/*border-radius: .6em;*/
 	display: block;
 	margin: 0 .2em;
 	padding: .6em;

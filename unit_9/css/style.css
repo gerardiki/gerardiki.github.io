@@ -10,7 +10,7 @@
 	margin: 0;
 	outline: 0;
 	padding: 0;
-	vertical-align: top;
+	vertical-align: middle;
 }
 
 a:link {
@@ -168,8 +168,8 @@ ul {
 #hero {
 	align-items: center;
 	background: url("../images/pano_highway_pano_crop.jpg");
-	background-attachment: fixed;	
-	background-size: cover;
+	/*background-attachment: fixed;*/
+	/*background-size: cover;*/
 	/*clear: both;*/
 	display: flex;
 	height: 100vh;
@@ -247,7 +247,7 @@ ul {
 	margin: 0 .2em;
 	padding: .6em;
 	text-align: center;
-	width: 31%;
+	width: 23%;
 }
 
 /*#mainNav a:link {
@@ -294,14 +294,6 @@ ul {
 	width: 100%;
 }
 
-#topHeader a {
-	display: block;
-}
-
-#topHeader a:hover {
-	background: none;
-}
-
 #work {
 	padding: 66px 0 1em;
 }
@@ -311,6 +303,13 @@ ul {
 	padding: .2em;
 }
 
+#work header {
+	border-radius: .6em;
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
 #work header h1 {
 	color: #fff;
 	margin: auto;
@@ -318,10 +317,13 @@ ul {
 }
 
 #work > section {
+	background-position: center;
+	background-size: cover;
+	border-radius: .6em;
 	margin: 0 auto .6em;
-	padding: 1em;
+	height: 6.4em;
 	text-align: center;
-	width: 100%;
+	width: 85%;
 }
 
 
@@ -339,15 +341,30 @@ ul {
 }
 
 #workInteractive {
-	background: navy; 
+	/*background: navy; */
+	background: url("../images/bg_interactive2.jpg");
+}
+
+#workInteractive header {
+	background: rgba(0,26,138,.8);
 }
 
 #workMotion {
-	background: orange;
+	/*background: orange;*/
+	background: url("../images/bg_motion2.png");
+}
+
+#workMotion header {
+	background: rgba(255,165,60,.8);
 }
 
 #workPrint {
-	background: red;
+	/*background: red;*/
+	background: url("../images/bg_print.jpg");
+}
+
+#workPrint header {
+	background: rgba(255,0,0,.6);	
 }
 
 #workProduction {

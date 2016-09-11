@@ -368,15 +368,25 @@ ul {
 }
 
 #workProduction {
-	background: indigo;
+	background: green;
 }
 
 #workUX {
-	background: purple;
+	/*background: purple;*/
+	background: url("../images/bg_ux.png");
+}
+
+#workUX header {
+	background: rgba(65,0,138,.85);
 }
 
 #workWeb {
-	background: blue;
+	/*background: blue;*/
+	background: url("../images/bg_web.gif");
+}
+
+#workWeb header {
+	background: rgba(0,66,255,.6);
 }
 
 /*#work > section {

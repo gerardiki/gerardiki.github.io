@@ -321,15 +321,9 @@ ul {
 	background-size: cover;
 	border-radius: .6em;
 	margin: 0 auto 1.6em;
-	height: 6.4em;
+	height: 16vh;
 	text-align: center;
 	width: 80%;
-}
-
-
-#workThumbs {
-	width: 100%;
-	text-align: center;
 }
 
 #workAnimation {
@@ -382,7 +376,7 @@ ul {
 
 #workWeb {
 	/*background: blue;*/
-	background: url("../images/bg_web.gif");
+	background: url("../images/bg_web2.gif");
 }
 
 #workWeb header {
@@ -430,59 +424,6 @@ ul {
 	margin-top: 66px;
 }
 
-.medium article {
-	border: 1px solid #306;
-	display: inline-block;
-	/*float: left;*/
-	/*min-height: 600px;*/
-	width: 30%;
-	padding: .2em;
-	margin: .6em;
-	text-align: left;
-
-}
-
-.medium article h1 {
-	border-bottom: none;
-	color: #306;
-	font-size: 1.75em;
-	padding: .3em;
-	text-transform: none;
-}
-
-.medium article h2 {
-	font-size: 1.25em;
-	font-style: italic;
-	font-weight: 600;
-	padding: .3em;
-	text-transform: none;
-}
-
-.medium article h3 {
-	color: #555;
-	font-size: 1em;
-	font-style: normal;
-	font-weight: 600;
-	padding: .3em;
-}
-
-.medium header {
-	padding: .6em;
-}
-
-.medium header h1 {
-	/*border-bottom: 1px solid #36c;
-	color: #36c;*/
-	color: #fff;
-	font-size: 2em;
-	font-weight: 800;
-}
-
-.workThumbBox {
-	display: inline-block;
-	width: 30%;
-}
-
 /* QUERIES */
 
 @media only screen and (min-width: 640px) {
@@ -492,7 +433,7 @@ ul {
 	}
 
 	#hero {
-		background-attachment: fixed;
+		/*background-attachment: fixed;*/
 		height: 62vh;
 	}
 
@@ -526,8 +467,10 @@ ul {
 	}
 
 	#hero {
+		background-size: cover;
+		/*height: 100vh;*/
 		margin-top: 101px;
-		max-width: 1200px;
+		/*max-width: 1200px;*/
 	}
 
 	#logo {
@@ -549,7 +492,7 @@ ul {
 	}
 
 	#work > section {
-		height: 250px;
-		max-width: 300px;
+		height: 38vh;
+		max-width: 85%;
 	}
 }

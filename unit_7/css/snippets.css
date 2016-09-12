@@ -1,2 +1,57 @@
 /*background: rgba(242, 242, 242, .6);  transparent cream */
 /*background: rgba(51, 0, 105, .9); transparent purple */
+
+/*OLD STYLES*/
+
+.medium article {
+	border: 1px solid #306;
+	display: inline-block;
+	/*float: left;*/
+	/*min-height: 600px;*/
+	width: 30%;
+	padding: .2em;
+	margin: .6em;
+	text-align: left;
+
+}
+
+.medium article h1 {
+	border-bottom: none;
+	color: #306;
+	font-size: 1.75em;
+	padding: .3em;
+	text-transform: none;
+}
+
+.medium article h2 {
+	font-size: 1.25em;
+	font-style: italic;
+	font-weight: 600;
+	padding: .3em;
+	text-transform: none;
+}
+
+.medium article h3 {
+	color: #555;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 600;
+	padding: .3em;
+}
+
+.medium header {
+	padding: .6em;
+}
+
+.medium header h1 {
+	/*border-bottom: 1px solid #36c;
+	color: #36c;*/
+	color: #fff;
+	font-size: 2em;
+	font-weight: 800;
+}
+
+.workThumbBox {
+	display: inline-block;
+	width: 30%;
+}

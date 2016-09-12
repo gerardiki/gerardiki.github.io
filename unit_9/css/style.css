@@ -204,7 +204,7 @@ ul {
 	align-items: center;
 	/*background: #306;*/
 	background: rgba(242, 242, 242, .9);
-	bottom: 0;
+	bottom: 25px;
 	display: flex;
 	font-size: .8em;
 	height: 50px;

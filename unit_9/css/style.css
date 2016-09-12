@@ -58,6 +58,7 @@ h1 {
 	color: #306;
 	font-size: 2.1em;
 	font-weight: 800;
+	/*text-align: center;*/
 	text-transform: uppercase;
 }
 
@@ -108,13 +109,13 @@ p {
 section {
 	background: #e6e6e6;
 	margin: auto;
-	text-align: center;
+	text-align: left;
 }
 
 ul {
 	line-height: 1.4em;
 	list-style: none;
-	padding: 1em;
+	padding: .3em;
 }
 
 /* IDs */
@@ -157,9 +158,28 @@ ul {
 	padding-bottom: .3em;*/
 }
 
+#education {
+	background: #fff;
+	padding: 1.6em;
+	text-align: left;
+}
+
+#education > section {
+	background: #fff;
+	padding: .6em 0;
+}
+
 #experience {
 	background: #fff;
-	padding: 6em .6em;
+	padding: 1.6em;
+	max-width: 1200px;
+	text-align: left;
+}
+
+#experience > section {
+	background: #fff;
+	max-width: 30em;
+	padding: .6em 0;
 	text-align: left;
 }
 
@@ -192,7 +212,7 @@ ul {
 }
 
 #logoType {
-	
+	height: 46px;
 }
 
 #logoWrapper {
@@ -222,6 +242,16 @@ ul {
 	width: 23%;
 }
 
+#skills {
+	background: #fff;
+	padding: 6em 1.6em 1.6em;
+}
+
+#skills > section {
+	background: #fff;
+	padding: .6em 0;
+}
+
 #statement {
 	/*background: #f2f2f2;*/
 	background: rgba(242, 242, 242, .5);
@@ -236,6 +266,16 @@ ul {
 	font-size: 2em;
 	margin: auto;
 	max-width: 30em;
+}
+
+#talents {
+	background: #fff;
+	padding: 1.6em;
+}
+
+#talents > section {
+	background: #fff;
+	padding: .6em 0;
 }
 
 #topHeader {
@@ -254,8 +294,8 @@ ul {
 }
 
 #work > h1 {
-	font-size: 1.4em;
 	padding: .2em 0 1.6em;
+	text-align: center;
 }
 
 #work header {
@@ -379,6 +419,10 @@ ul {
 
 .floatRight {
 	float: right;
+}
+
+.sectionDetail {
+	display: none;
 }
 
 .workMarginTop {

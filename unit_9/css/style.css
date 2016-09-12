@@ -56,19 +56,19 @@ header {
 
 h1 {
 	color: #306;
-	font-size: 2em;
+	font-size: 2.1em;
 	font-weight: 800;
 	text-transform: uppercase;
 }
 
 h2 {
-	font-size: 1.6em;
+	font-size: 1.3em;
 	font-weight: 600;
 	color: #36c;
 }
 
 h3 {
-	font-size: 1.2em;
+	/*font-size: 1em;*/
 	font-style: italic;
 	font-weight: 600;
 	color: #306;
@@ -121,9 +121,9 @@ ul {
 
 #contact {
 	background: inherit;
-	padding: 1em 0;
-	margin-bottom: 66px;
-	text-align: left;
+	padding: 3.2em 0;
+	margin-bottom: 6em;
+	text-align: center;
 	width: 80%;
 }
 
@@ -159,8 +159,7 @@ ul {
 
 #experience {
 	background: #fff;
-	/*max-width: 1080px;*/
-	max-width: 60em;
+	padding: 6em .6em;
 	text-align: left;
 }
 
@@ -204,7 +203,7 @@ ul {
 	align-items: center;
 	/*background: #306;*/
 	background: rgba(242, 242, 242, .9);
-	bottom: 25px;
+	bottom: 1.6em;
 	display: flex;
 	font-size: .8em;
 	height: 50px;
@@ -251,12 +250,12 @@ ul {
 }
 
 #work {
-	padding: 66px 0 1em;
+	padding: 6em 0 1em;
 }
 
-#work h1 {
+#work > h1 {
 	font-size: 1.4em;
-	padding: .2em;
+	padding: .2em 0 1.6em;
 }
 
 #work header {
@@ -276,8 +275,8 @@ ul {
 	background-position: center;
 	background-size: cover;
 	border-radius: .6em;
-	margin: 0 auto 1.6em;
-	height: 16vh;
+	margin: 0 auto 2.1em;
+	height: 21vh;
 	text-align: center;
 	width: 80%;
 }
@@ -393,13 +392,13 @@ ul {
 @media only screen and (min-width: 640px) {
 	#contact a {
 		display: inline-block;
-		margin-top: 1em;
+		/*margin-top: 1em;*/
+		padding: 1 1.6em;
 	}
 
 	#work > section {
-		display: inline-block;
 		height: 38vh;
-		margin: 1em;
+		margin-bottom: 9vh;
 		text-align: center;
 	}
 
@@ -428,7 +427,7 @@ ul {
 	#mainNav {
 		height: 35px;
 		position: fixed;
-		top: 66px;
+		top: 75px;
 	}
 
 	#mainNav a {
@@ -441,6 +440,7 @@ ul {
 
 	#work > section {
 		height: 38vh;
+		margin-bottom: 16vh;
 		max-width: 85%;
 	}
 }

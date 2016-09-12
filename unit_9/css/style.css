@@ -166,14 +166,12 @@ ul {
 }
 
 #hero {
-	align-items: center;
 	background: url("../images/pano_highway_pano_crop.jpg");
 	/*background-attachment: fixed;*/
-	/*background-size: cover;*/
+	background-size: cover;
 	/*clear: both;*/
-	display: flex;
+
 	height: 100vh;
-	justify-content: center;
 	/*margin-top: 66px;*/
 	max-width: 100%;
 	padding: .6em;
@@ -181,38 +179,18 @@ ul {
 }
 
 #hero h1 {
+	background: rgba(51,0,105,.1);
+	border-radius: .6em;
+	/*background: rgba(242,242,242,.3);*/
+	color: #fff;
 	font-size: 1.6em;
-	margin: .2em;
+	margin: .6em;
+	padding: .6em;
 	text-transform: none;
 }
 
-#heroTitle {
-
-}
-
-#heroTitle a:link {
-	color: #fff;
-	font-weight: 600;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-
-#heroTitle a:visited {
-	color: #fff;
-}
-
-#heroTitle a:hover {
-	background: #fff;
-	color: #306;
-	/*border-bottom: 1px solid;*/
-}
-
-#heroTitle a:active {
-	color: #F00;
-}
-
 #logo {
-	height: 90px;
+	width: 62%;
 }
 
 #logo a:hover {
@@ -249,23 +227,6 @@ ul {
 	text-align: center;
 	width: 23%;
 }
-
-/*#mainNav a:link {
-	color: #fff;
-	text-decoration: none;
-}
-
-#mainNav a:visited {
-	color: #fff;
-}
-
-#mainNav a:hover {
-	color: #fff;
-}
-
-#mainNav a:active {
-	color: #F00;
-}*/
 
 #statement {
 	/*background: #f2f2f2;*/
@@ -412,6 +373,12 @@ ul {
 	visibility: hidden;
 }
 
+.displayFlex {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
 .floatLeft {
 	float: left;
 }
@@ -424,7 +391,9 @@ ul {
 	margin-top: 66px;
 }
 
+/***********/
 /* QUERIES */
+/***********/
 
 @media only screen and (min-width: 640px) {
 	#contact a {
@@ -435,14 +404,6 @@ ul {
 	#hero {
 		/*background-attachment: fixed;*/
 		height: 62vh;
-	}
-
-	#logo {
-		height: 120px;
-	}
-
-	#logoWrapper {
-
 	}
 
 	#work > section {
@@ -471,10 +432,6 @@ ul {
 		/*height: 100vh;*/
 		margin-top: 101px;
 		/*max-width: 1200px;*/
-	}
-
-	#logo {
-		height: 100px;
 	}
 
 	#mainNav {

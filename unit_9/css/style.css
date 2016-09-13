@@ -51,11 +51,12 @@ footer {
 }
 
 header {
-
+	margin: auto;
+	width: 80%;
 }
 
 h1 {
-	color: #306;
+	color: #36c;
 	font-size: 2.1em;
 	font-weight: 800;
 	/*text-align: center;*/
@@ -63,16 +64,15 @@ h1 {
 }
 
 h2 {
+	color: #306;
 	font-size: 1.3em;
 	font-weight: 600;
-	color: #36c;
 }
 
 h3 {
-	/*font-size: 1em;*/
+	color: #36c;
 	font-style: italic;
 	font-weight: 600;
-	color: #306;
 }
 
 hr {
@@ -112,6 +112,11 @@ section {
 	text-align: left;
 }
 
+section > section {
+	background: #fff;
+	width: 80%;
+}
+
 ul {
 	line-height: 1.4em;
 	list-style: none;
@@ -124,7 +129,6 @@ ul {
 	background: inherit;
 	padding: 3.2em 0;
 	margin-bottom: 6em;
-	text-align: center;
 	width: 80%;
 }
 
@@ -139,7 +143,6 @@ ul {
 
 #contact h1 {
 	color: #fff;
-	font-size: 1.4em;
 }
 
 #contact nav {
@@ -160,7 +163,7 @@ ul {
 
 #education {
 	background: #fff;
-	padding: 1.6em;
+	padding: 1.6em 0;
 	text-align: left;
 }
 
@@ -171,14 +174,13 @@ ul {
 
 #experience {
 	background: #fff;
-	padding: 1.6em;
+	padding: 1.6em 0;
 	max-width: 1200px;
 	text-align: left;
 }
 
 #experience > section {
 	background: #fff;
-	max-width: 30em;
 	padding: .6em 0;
 	text-align: left;
 }
@@ -197,7 +199,7 @@ ul {
 	border-radius: .6em;
 	/*background: rgba(242,242,242,.3);*/
 	color: #fff;
-	font-size: 1.6em;
+	/*font-size: 1.6em;*/
 	margin: .2em;
 	padding: .4em;
 	text-transform: none;
@@ -212,11 +214,12 @@ ul {
 }
 
 #logoType {
-	height: 46px;
+
 }
 
 #logoWrapper {
-	margin: .3em;
+/*	margin: .3em;*/
+	width: 80%;
 }
 
 #mainNav {
@@ -242,35 +245,43 @@ ul {
 	width: 23%;
 }
 
+#manifesto {
+	background: #fff;
+	padding: 6em 0 1.6em;
+}
+
+#profileImg {
+	
+}
+
+#profilePicWrapper {
+	background: #fff;
+}
+
 #skills {
 	background: #fff;
-	padding: 6em 1.6em 1.6em;
+	padding: 1.6em 0;
+	/*padding: 6em 0 1.6em;*/
 }
 
 #skills > section {
-	background: #fff;
 	padding: .6em 0;
 }
 
 #statement {
-	/*background: #f2f2f2;*/
-	background: rgba(242, 242, 242, .5);
-	margin: 2%;
-	max-width: 40em;
-	/*width: 100%;*/
-	padding: 1.6em;
+	width: 80%;
 }
 
 #statement p {
-	color: #306;
-	font-size: 2em;
+	/*color: #306;*/
 	margin: auto;
 	max-width: 30em;
+	padding: .6em 0;
 }
 
 #talents {
 	background: #fff;
-	padding: 1.6em;
+	padding: 1.6em 0;
 }
 
 #talents > section {
@@ -290,12 +301,13 @@ ul {
 }
 
 #work {
-	padding: 6em 0 1em;
+	padding: 6em 0 1.6em;
 }
 
 #work > h1 {
-	padding: .2em 0 1.6em;
-	text-align: center;
+	margin: auto;
+	padding-bottom: .6em;
+	width: 80%;
 }
 
 #work header {
@@ -318,7 +330,6 @@ ul {
 	margin: 0 auto 2.1em;
 	height: 21vh;
 	text-align: center;
-	width: 80%;
 }
 
 #workAnimation {
@@ -436,8 +447,11 @@ ul {
 @media only screen and (min-width: 640px) {
 	#contact a {
 		display: inline-block;
-		/*margin-top: 1em;*/
-		padding: 1 1.6em;
+		padding: 1em 1.6em;
+	}
+
+	#logoType {
+		height: 46px;
 	}
 
 	#work > section {

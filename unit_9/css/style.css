@@ -251,11 +251,13 @@ ul {
 }
 
 #profileImg {
-	
+	width: 80%;
 }
 
 #profilePicWrapper {
 	background: #fff;
+	padding-top: 6em;
+	text-align: center;
 }
 
 #skills {

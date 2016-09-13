@@ -116,7 +116,7 @@ section {
 
 section > section {
 	background: #fff;
-	width: 80%;
+	/*width: 80%;*/
 }
 
 ul {
@@ -171,6 +171,7 @@ ul {
 	background: #fff;
 	padding: 1.6em 0;
 	max-width: 1200px;
+	width: 100%;
 	text-align: left;
 }
 
@@ -178,6 +179,7 @@ ul {
 	background: #fff;
 	padding: .6em 0;
 	text-align: left;
+	width: 80%;
 }
 
 #hero {
@@ -196,6 +198,10 @@ ul {
 	margin: .6em;
 	padding: .3em;
 	text-transform: none;
+}
+
+#interactivePage {
+	padding-top: 75px;
 }
 
 #logo {
@@ -243,6 +249,32 @@ ul {
 	padding: 1.6em 0;
 }
 
+#mediumsNavSmall {
+	bottom: 4.8em;
+	font-size: .9em;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+#mediumsNavSmall a {
+	display: inline-block;
+	color: #fff;
+	padding: .6em;
+	width: 18%;
+}
+
+#mediumsNavLarge {
+	bottom: 4.8em;
+	display: none;
+	font-size: .9em;
+	position: fixed;
+}
+
+#mediumsNav a {
+
+}
+
 #profileImg {
 	width: 80%;
 }
@@ -256,11 +288,14 @@ ul {
 #skills {
 	background: #fff;
 	padding: 1.6em 0;
+	width: 100%;
 	/*padding: 6em 0 1.6em;*/
 }
 
 #skills > section {
+	background: #fff;
 	padding: .6em 0;
+	width: 80%;
 }
 
 #statement {
@@ -386,6 +421,47 @@ ul {
 
 /* CLASSES */
 
+.bg_Interactive {
+	background: url("../images/bg_interactive2.jpg");
+}
+
+.bgColor_Interactive {
+	background: rgba(0,26,138,.8);
+}
+
+.bg_Motion {
+	/*background: orange;*/
+	background: url("../images/bg_motion3.jpg");
+}
+
+.bgColor_Motion {
+	background: rgba(255,165,60,.8);
+}
+
+.bg_Print {
+	background: url("../images/bg_print.jpg");
+}
+
+.bgColor_Print {
+	background: rgba(255,0,0,.6);	
+}
+
+.bg_UX {
+	background: url("../images/bg_ux.png");
+}
+
+.bgColor_UX {
+	background: rgba(65,0,138,.85);
+}
+
+.bg_Web {
+	background: url("../images/bg_web2.gif");
+}
+
+.bgColor_Web {
+	background: rgba(0,66,255,.6);
+}
+
 .borderLeftWhite {
 	border-left: 1px solid white;
 }
@@ -419,6 +495,10 @@ ul {
 	justify-content: center;
 }
 
+.eightyWidth {
+	width: 80%;
+}
+
 .floatLeft {
 	float: left;
 }
@@ -427,8 +507,22 @@ ul {
 	float: right;
 }
 
+.imagesWrapper {
+	background: #e6e6e6;
+	padding: .6em;
+	width: 100%;
+}
+
 .sectionDetail {
 	display: none;
+}
+
+.workCard {
+	background: #fff;
+}
+
+.workCard header {
+	padding: .6em;
 }
 
 .workMarginTop {

@@ -32,7 +32,7 @@ a:active {
 }
 
 article {
-	margin: 2% 2% 2% 0;
+
 }
 
 body {
@@ -57,7 +57,7 @@ header {
 
 h1 {
 	color: #36c;
-	font-size: 2.1em;
+	font-size: 2em;
 	font-weight: 800;
 	/*text-align: center;*/
 	text-transform: uppercase;
@@ -71,7 +71,14 @@ h2 {
 
 h3 {
 	color: #36c;
+	font-size: 1.1em;
 	font-style: italic;
+	font-weight: 600;
+}
+
+h4 {
+	color: #667;
+	font-size: 1em;
 	font-weight: 600;
 }
 
@@ -103,7 +110,7 @@ nav a:hover {
 
 p {
 	/*font-family: 'Georgia', serif;*/
-	font-size: 1.2em;
+	/*font-size: 1.2em;*/
 	line-height: 1.4em;
 	max-width: 30em;
 }
@@ -201,7 +208,15 @@ ul {
 }
 
 #interactivePage {
-	padding-top: 75px;
+	padding-top: 6em;
+}
+
+#interactivePage h1 {
+	color: #fff;
+}
+
+#interactivePage > header {
+	margin-bottom: 1.6em;
 }
 
 #logo {
@@ -235,13 +250,10 @@ ul {
 }
 
 #mainNav a {
-	/*background: rgba(242, 242, 242, .9);*/
-	/*border-radius: .6em;*/
 	display: block;
-	margin: 0 .2em;
+	margin: 0 .6em;
 	padding: .6em;
 	text-align: center;
-	width: 23%;
 }
 
 #manifesto {
@@ -334,6 +346,24 @@ ul {
 	padding: 6em 0 1.6em;
 }
 
+#work a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+#work a:visited {
+	color: #fff;
+}
+
+#work a:hover {
+	color: #F00;
+	/*border-bottom: 1px solid;*/
+}
+
+#work a:active {
+	color: #F00;
+}
+
 #work > h1 {
 	margin: auto;
 	padding-bottom: .6em;
@@ -360,6 +390,7 @@ ul {
 	margin: 0 auto 2.1em;
 	height: 21vh;
 	text-align: center;
+	width: 80%;
 }
 
 #workAnimation {
@@ -374,6 +405,8 @@ ul {
 	/*background: navy; */
 	background: url("../images/bg_interactive2.jpg");
 }
+
+
 
 #workInteractive header {
 	background: rgba(0,26,138,.8);
@@ -427,6 +460,8 @@ ul {
 
 .bgColor_Interactive {
 	background: rgba(0,26,138,.8);
+	padding: 1em;
+	width: 100%;
 }
 
 .bg_Motion {
@@ -510,6 +545,7 @@ ul {
 .imagesWrapper {
 	background: #e6e6e6;
 	padding: .6em;
+	text-align: center;
 	width: 100%;
 }
 
@@ -519,10 +555,18 @@ ul {
 
 .workCard {
 	background: #fff;
+	margin: 1.6em 0;
+	padding: .6em 0;
 }
 
 .workCard header {
-	padding: .6em;
+	padding: .6em 0;
+}
+
+.workCard p {
+	/*font-size: 1em;*/
+	margin: .6em auto;
+	width: 90%;
 }
 
 .workMarginTop {
@@ -594,6 +638,6 @@ ul {
 		display: inline-block;
 		height: 38vh;
 		margin: 2%;
-		max-width: 28%;
+		width: 28%;
 	}
 }

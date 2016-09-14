@@ -173,6 +173,13 @@ ul {
 #education > section {
 	background: #fff;
 	padding: .6em 0;
+	width: 80%;
+}
+
+#eduSkillsTalentsWrapper {
+	background: #fff;
+	max-width: 1200px;
+	text-align: center;
 }
 
 #experience {
@@ -247,6 +254,7 @@ ul {
 
 #manifesto {
 	background: #fff;
+	max-width: 1200px;
 	padding: 1.6em 0;
 }
 
@@ -282,6 +290,7 @@ ul {
 
 #profilePicWrapper {
 	background: #fff;
+	max-width: 1200px;
 	padding: 6em 0 1.6em;
 	text-align: center;
 }
@@ -318,6 +327,7 @@ ul {
 #talents > section {
 	background: #fff;
 	padding: .6em 0;
+	width: 80%;
 }
 
 #topHeader {
@@ -616,10 +626,31 @@ ul {
 		width: 300px;
 	}
 
-	#work > section {
-		height: 38vh;
-		margin-bottom: 9vh;
+	#skills {
+		display: inline-block;
+		width: 45%;
+	}
+
+	#statement p {
+		font-size: 1.6em;
+	}
+
+	#talents {
+		display: inline-block;
+		width: 45%;
+	}
+
+	#work {
 		text-align: center;
+	}
+
+	#work > section {
+		display: inline-block;
+		height: 38vh;
+		margin: .6em;
+		/*margin-bottom: 9vh;*/
+		text-align: center;
+		width: 45%;
 	}
 
 	#work header {
@@ -627,6 +658,10 @@ ul {
 		display: flex;
 		height: 100%;
 		justify-content: center;
+	}
+
+	.sectionDetail {
+		display: block;
 	}
 }
 
@@ -636,26 +671,41 @@ ul {
 		max-width: 1200px;
 	}
 
+	#education {
+		background: #fff;
+		display: inline-block;
+		width: 28%;
+	}
+
 	#hero {
 		background-attachment: fixed;
 		background-size: cover;
 		height: 62vh;
-		margin-top: 101px;
+		margin-top: 110px;
 		/*max-width: 1200px;*/
 	}
 
 	#mainNav {
+		bottom: inherit;
 		height: 35px;
 		position: fixed;
 		top: 75px;
 	}
 
-	#mainNav a {
-		width: initial;
+	#profilePicWrapper {
+		padding-top: 135px;
+	}
+
+	#skills {
+		width: 28%;
+	}
+
+	#talents {
+		width: 28%;
 	}
 
 	#work {
-		padding-top: 1.6em;
+		padding-top: 120px;
 		text-align: center;
 	}
 
@@ -666,12 +716,17 @@ ul {
 		width: 28%;
 	}
 
+	#workPage {
+		padding-top: 110px; 
+	}
+
+	.imagesWrapper img {
+		margin: 1.6em;
+	}
+
 	.workCard {
 		background: #fff;
 		display: inline-block;
-		margin: 1.6em;
-		/*height: 600px;*/
-		padding: .6em 0;
-		width: 28%;
+		width: 100%;
 	}
 }

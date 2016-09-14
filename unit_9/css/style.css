@@ -10,7 +10,7 @@
 	margin: 0;
 	outline: 0;
 	padding: 0;
-	vertical-align: middle;
+	vertical-align: top;
 }
 
 a:link {
@@ -65,7 +65,7 @@ h1 {
 
 h2 {
 	color: #306;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	font-weight: 600;
 }
 
@@ -205,18 +205,6 @@ ul {
 	margin: .6em;
 	padding: .3em;
 	text-transform: none;
-}
-
-#interactivePage {
-	padding-top: 6em;
-}
-
-#interactivePage h1 {
-	color: #fff;
-}
-
-#interactivePage > header {
-	margin-bottom: 1.6em;
 }
 
 #logo {
@@ -406,8 +394,6 @@ ul {
 	background: url("../images/bg_interactive2.jpg");
 }
 
-
-
 #workInteractive header {
 	background: rgba(0,26,138,.8);
 }
@@ -424,6 +410,18 @@ ul {
 #workPrint {
 	/*background: red;*/
 	background: url("../images/bg_print.jpg");
+}
+
+#workPage {
+	padding-top: 6em;
+}
+
+#workPage h1 {
+	color: #fff;
+}
+
+#workPage > header {
+	margin-bottom: 1.6em;
 }
 
 #workPrint header {
@@ -454,19 +452,30 @@ ul {
 
 /* CLASSES */
 
-.bg_Interactive {
-	background: url("../images/bg_interactive2.jpg");
+.bg_centercover {
+	background-position: center;
+	background-size: cover;
 }
 
-.bgColor_Interactive {
-	background: rgba(0,26,138,.8);
+.bg_padding {
 	padding: 1em;
 	width: 100%;
 }
 
+.bg_Interactive {
+	background: url("../images/bg_interactive2.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.bgColor_Interactive {
+	background: rgba(0,26,138,.8);
+}
+
 .bg_Motion {
-	/*background: orange;*/
 	background: url("../images/bg_motion3.jpg");
+	background-position: center;
+	background-size: cover;
 }
 
 .bgColor_Motion {
@@ -475,6 +484,8 @@ ul {
 
 .bg_Print {
 	background: url("../images/bg_print.jpg");
+	background-position: center;
+	background-size: cover;
 }
 
 .bgColor_Print {
@@ -483,6 +494,8 @@ ul {
 
 .bg_UX {
 	background: url("../images/bg_ux.png");
+	background-position: center;
+	background-size: cover;
 }
 
 .bgColor_UX {
@@ -491,6 +504,8 @@ ul {
 
 .bg_Web {
 	background: url("../images/bg_web2.gif");
+	background-position: center;
+	background-size: cover;
 }
 
 .bgColor_Web {
@@ -544,9 +559,13 @@ ul {
 
 .imagesWrapper {
 	background: #e6e6e6;
-	padding: .6em;
+	padding: 1.6em 0;
 	text-align: center;
 	width: 100%;
+}
+
+.imagesWrapper img {
+	margin-bottom: .6em;
 }
 
 .sectionDetail {
@@ -555,18 +574,23 @@ ul {
 
 .workCard {
 	background: #fff;
-	margin: 1.6em 0;
-	padding: .6em 0;
+	margin-top: 1.6em;
+	/*max-height: 600px;*/
+	padding-top: .6em;
 }
 
 .workCard header {
-	padding: .6em 0;
+	padding: .6em 0 1.4em;
 }
 
 .workCard p {
-	/*font-size: 1em;*/
+	font-size: .8em;
 	margin: .6em auto;
-	width: 90%;
+	width: 80%;
+}
+
+.workDetail {
+	display: none;
 }
 
 .workMarginTop {
@@ -638,6 +662,15 @@ ul {
 		display: inline-block;
 		height: 38vh;
 		margin: 2%;
+		width: 28%;
+	}
+
+	.workCard {
+		background: #fff;
+		display: inline-block;
+		margin: 1.6em;
+		/*height: 600px;*/
+		padding: .6em 0;
 		width: 28%;
 	}
 }

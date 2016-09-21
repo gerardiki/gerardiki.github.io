@@ -392,6 +392,10 @@ ul {
 	width: 80%;
 }
 
+#workAudio {
+	background: #ccc;
+}
+
 #workAnimation {
 	background: orange;
 }
@@ -471,6 +475,10 @@ ul {
 .bg_padding {
 	padding: 1em;
 	width: 100%;
+}
+
+.bg_Audio {
+	background: #ccc;
 }
 
 .bg_Interactive {
@@ -575,8 +583,16 @@ ul {
 	width: 100%;
 }
 
+.imagesWrapper h2 {
+	color: #306;
+}
+
 .imagesWrapper img {
 	margin-bottom: .6em;
+}
+
+.musicWrapper {
+	margin: .6em 0;
 }
 
 .sectionDetail {

@@ -577,14 +577,11 @@ ul {
 }
 
 .imagesWrapper {
+	/*display: inline-block;*/
 	background: #e6e6e6;
 	padding: 1.6em 0;
 	text-align: center;
 	width: 100%;
-}
-
-.imagesWrapper h2 {
-	color: #306;
 }
 
 .imagesWrapper img {
@@ -592,7 +589,9 @@ ul {
 }
 
 .musicWrapper {
-	margin: .6em 0;
+	display: inline-block;
+	margin: .6em;
+	max-width: 40%;
 }
 
 .sectionDetail {
